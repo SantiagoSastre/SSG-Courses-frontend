@@ -1,0 +1,17 @@
+.riskdel {
+    background-color: red;
+    width: 150px;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+    padding: 0.5px 20px;
+    margin: 10px 0px;
+}
+.riskdel:hover {
+    background-color: crimson;
+}

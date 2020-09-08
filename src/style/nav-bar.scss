@@ -1,0 +1,23 @@
+.nav-bar {
+    background-color:$teal;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+        border-bottom: solid 1px transparent;
+        transition: 1s ease-in-out;
+
+        &:hover {
+            color: white;
+            border-bottom: solid 1px white;
+        }
+    }
+    .active-link {
+        color: white;
+        border-bottom: solid 1px white;
+    }
+
+}

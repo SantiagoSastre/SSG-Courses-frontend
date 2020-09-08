@@ -1,0 +1,194 @@
+.addC {
+    font-weight: 300;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+}
+.addCwrapper {
+    margin-top:10px ;
+    background-color: $teal;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;;
+}
+.addCwrapper:hover {
+    background-color: $darkteal;
+}
+.Register {
+.coursesub {
+    width: 20vw;
+}
+}
+.select {
+    margin: 20px 0px;
+}
+
+.course-wrapper {
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px 0px;
+    display: flex;
+    img{
+        margin-right: 10px;
+        height: 200px;
+        width: 200px;
+        @media screen and (max-width: 500px) {
+            width:150px;
+            height: 150px;
+            }
+    }
+    .textlink{
+        color: black;
+        font-size: 35px;
+        text-decoration:none ;
+        transition: 1s;
+    }
+    .textlink:hover {
+        color:$teal;
+    }
+  }
+  .courselist{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .take {
+    background-color: $darkteal;
+    width: 10%;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+}
+.take:hover{
+    background-color: $teal;
+}
+.semi2 {
+    background-color: $darkteal;
+    width: 150px;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+    text-decoration: none;
+    padding: 0.5px 20px;
+
+}
+.semi2:hover {
+    background-color: $teal;
+}
+.guide {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    .shadow{
+        width: 70%;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        justify-content: center;
+        margin: 0px 50px;
+        @media screen and (max-width: 600px) {
+            width:90%;
+            margin: 0px 2px;
+            }
+
+  }
+
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+
+.next{
+    height: 40px;
+    width: 40px;
+    color: $teal;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0px;
+    margin: 3px;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.25em;
+}
+.next_wrapper {
+
+    margin-top:60px;
+}
+.next:hover{
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1px;
+    color: goldenrod;
+}
+.upd_wrapper {
+    margin-bottom: 10px;
+}
+.content{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    .video_wrapper {
+        display:flex;
+    justify-content:center;
+    }
+}
+
+.cWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.search-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.search{
+    border: 0px;
+    outline: none;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 50px;
+    transition: 0.75s;
+}
+.search:focus{
+    box-shadow: 0 11px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 70px;
+}
+.sb{
+    height: 40px;
+    width: 40px;
+    color: $teal;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0px;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1.25em;
+}
+.sb:hover{
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1px;
+    color: goldenrod;
+}

@@ -1,0 +1,14 @@
+@import "variables.scss";
+@import "nav-bar.scss";
+@import "registerandlogin.scss";
+@import "delprofile.scss";
+@import "courses.scss";
+
+body {
+    margin: 0px;
+    font-family: 'raleway', sans-serif;
+}
+a {
+    color: $teal;
+}
+

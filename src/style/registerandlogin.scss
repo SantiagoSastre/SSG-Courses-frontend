@@ -1,0 +1,184 @@
+.Register {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input {
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: 3px solid black;
+    outline: none;
+    }
+    textarea {
+    margin-bottom: 10px;
+    border: 0px;
+    border: 1px solid black;
+    outline: none;
+    padding-bottom: 5vh;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        background-color: $teal;
+        width: 50%;
+        height: 20px;
+        border: 0px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: 1s;
+        outline: none;
+
+        
+    }
+    button:hover {
+        background-color: $darkteal;
+    }
+    
+}
+.Login {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input {
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: 3px solid black;
+    outline: none;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        background-color: $teal;
+        width: 50%;
+        height: 20px;
+        border: 0px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: 1s;
+        outline: none;
+
+        
+    }
+    button:hover {
+        background-color: $darkteal;
+    }
+    
+}
+.tagsh3 {
+    margin: 10px 0px;
+}
+.profile-updating {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input {
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: 3px solid black;
+    outline: none;
+    }
+    textarea {
+        margin-bottom: 10px;
+        border: 0px;
+        border: 1px solid black;
+        outline: none;
+        padding-bottom: 5vh;
+        }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        background-color: $teal;
+        width: 50%;
+        height: 20px;
+        border: 0px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: 1s;
+        outline: none;
+
+        
+    }
+    button:hover {
+        background-color: $darkteal;
+    }
+    
+}
+.updt{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.semilink {
+    background-color: $teal;
+    width: 150px;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+    text-decoration: none;
+    padding: 0.5px 20px;
+
+}
+.semilink:hover {
+    background-color: $darkteal;
+}
+.riskbutton {
+    background-color: yellow;
+    width: 75px;
+        height: 20px;
+        border: 0px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        color: black;
+        cursor: pointer;
+        transition: 1s;
+        outline: none;
+        padding: 3px;
+        margin: 0px;
+
+        
+    }
+    .riskbutton:hover {
+        background-color: orange;
+    }
+.semitype2 {
+    background-color: red;
+    width: 150px;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+    text-decoration: none;
+    padding: 0.5px 20px;
+
+
+}
+.semitype2:hover {
+    background-color: crimson;
+}
