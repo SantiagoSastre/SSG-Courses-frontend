@@ -13,6 +13,7 @@ export default class Home extends Component{
     
     }
     componentDidMount() {
+        if (this.props._id != undefined) {
         axios.get(`https://santisastre.a2hosted.com/flaskapp/user/id/${this.props._id}`).then((resp)=>{
             axios.get(`https://santisastre.a2hosted.com/flaskapp/courses`).then((res)=> {
             res.data.map((c)=>{
@@ -48,7 +49,7 @@ export default class Home extends Component{
         }).catch(()=>{
             alert("couldn't fetch courses, try again later")
         })
-        
+    }
     }
     render() {
         return (
