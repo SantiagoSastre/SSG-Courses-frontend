@@ -70,7 +70,7 @@ import Cookies from "js-cookie";
         if (this.state.username !== "" && this.state.password !== "") {
         axios({
             method: 'post',
-            url: 'https://santisastre.a2hosted.com/flaskapp/register',
+            url: 'https://santisastre.a2hosted.com/flaskapp/register/',
             data: {
               name: this.state.username,
               password: this.state.password,
@@ -90,14 +90,14 @@ import Cookies from "js-cookie";
           regStatus === "user created"? 
           axios({
             method: 'post',
-            url: 'https://santisastre.a2hosted.com/flaskapp/login',
+            url: 'https://santisastre.a2hosted.com/flaskapp/login/',
             data: {
               name: this.state.username,
               password: this.state.password
             }
           }).then( (resp) => {
             Cookies.set('user', resp.data.userId, { expires: 90 });
-            axios.get(`https://santisastre.a2hosted.com/flaskapp/user/id/${resp.data.userId}`)
+            axios.get(`https://santisastre.a2hosted.com/flaskapp/user/id/${resp.data.userId}/`)
       .then( (response)=> {
         this.props.callbackFromParents(response.data)
       })
